@@ -41,6 +41,13 @@ pub fn run() {
     let is_true = 7 > 9;
     println!("{:?}", (x, y, z, is_true));
 
+    // char type , unicode 1 char length
+    let a1 = 'a';
+    println!(" a1 is {}" , a1);
+
+    // let store unicode emoji char
+    let face = '\u{1F600}';
+    println!(" face is {}", face);
     
 
 }
